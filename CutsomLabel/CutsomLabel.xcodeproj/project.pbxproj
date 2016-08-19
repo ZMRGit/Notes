@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F82D88319D3FA1E00DBE79A /* attributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82D88219D3FA1E00DBE79A /* attributedLabel.m */; };
+		8F82D88619D40B5A00DBE79A /* SHLUILabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82D88519D40B5A00DBE79A /* SHLUILabel.m */; };
+		8FBBC9EC19D3B0E100FB38F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBBC9EB19D3B0E100FB38F6 /* main.m */; };
+		8FBBC9EF19D3B0E100FB38F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBBC9EE19D3B0E100FB38F6 /* AppDelegate.m */; };
+		8FBBC9F219D3B0E200FB38F6 /* CutsomLabel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8FBBC9F019D3B0E100FB38F6 /* CutsomLabel.xcdatamodeld */; };
+		8FBBC9F519D3B0E200FB38F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBBC9F419D3B0E200FB38F6 /* ViewController.m */; };
+		8FBBC9F819D3B0E200FB38F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FBBC9F619D3B0E200FB38F6 /* Main.storyboard */; };
+		8FBBC9FA19D3B0E200FB38F6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FBBC9F919D3B0E200FB38F6 /* Images.xcassets */; };
+		8FBBC9FD19D3B0E200FB38F6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FBBC9FB19D3B0E200FB38F6 /* LaunchScreen.xib */; };
+		8FBBCA0919D3B0E200FB38F6 /* CutsomLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBBCA0819D3B0E200FB38F6 /* CutsomLabelTests.m */; };
+		8FBBCA4F19D3BCF000FB38F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FBBCA4E19D3BCF000FB38F6 /* Foundation.framework */; };
+		8FBBCA5119D3BCF700FB38F6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FBBCA5019D3BCF700FB38F6 /* CoreGraphics.framework */; };
+		8FBBCA5319D3BCFD00FB38F6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FBBCA5219D3BCFD00FB38F6 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8FBBCA0319D3B0E200FB38F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FBBC9DE19D3B0E100FB38F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FBBC9E519D3B0E100FB38F6;
+			remoteInfo = CutsomLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F82D88119D3FA1E00DBE79A /* attributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = attributedLabel.h; sourceTree = "<group>"; };
+		8F82D88219D3FA1E00DBE79A /* attributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = attributedLabel.m; sourceTree = "<group>"; };
+		8F82D88419D40B5A00DBE79A /* SHLUILabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHLUILabel.h; sourceTree = "<group>"; };
+		8F82D88519D40B5A00DBE79A /* SHLUILabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHLUILabel.m; sourceTree = "<group>"; };
+		8FBBC9E619D3B0E100FB38F6 /* CutsomLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CutsomLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FBBC9EA19D3B0E100FB38F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FBBC9EB19D3B0E100FB38F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8FBBC9ED19D3B0E100FB38F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8FBBC9EE19D3B0E100FB38F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8FBBC9F119D3B0E100FB38F6 /* CutsomLabel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CutsomLabel.xcdatamodel; sourceTree = "<group>"; };
+		8FBBC9F319D3B0E200FB38F6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8FBBC9F419D3B0E200FB38F6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8FBBC9F719D3B0E200FB38F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8FBBC9F919D3B0E200FB38F6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8FBBC9FC19D3B0E200FB38F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8FBBCA0219D3B0E200FB38F6 /* CutsomLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CutsomLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FBBCA0719D3B0E200FB38F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FBBCA0819D3B0E200FB38F6 /* CutsomLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CutsomLabelTests.m; sourceTree = "<group>"; };
+		8FBBCA4E19D3BCF000FB38F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8FBBCA5019D3BCF700FB38F6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8FBBCA5219D3BCFD00FB38F6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FBBC9E319D3B0E100FB38F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FBBCA5319D3BCFD00FB38F6 /* UIKit.framework in Frameworks */,
+				8FBBCA5119D3BCF700FB38F6 /* CoreGraphics.framework in Frameworks */,
+				8FBBCA4F19D3BCF000FB38F6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FBBC9FF19D3B0E200FB38F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FBBC9DD19D3B0E100FB38F6 = {
+			isa = PBXGroup;
+			children = (
+				8FBBCA5219D3BCFD00FB38F6 /* UIKit.framework */,
+				8FBBCA5019D3BCF700FB38F6 /* CoreGraphics.framework */,
+				8FBBCA4E19D3BCF000FB38F6 /* Foundation.framework */,
+				8FBBC9E819D3B0E100FB38F6 /* CutsomLabel */,
+				8FBBCA0519D3B0E200FB38F6 /* CutsomLabelTests */,
+				8FBBC9E719D3B0E100FB38F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8FBBC9E719D3B0E100FB38F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FBBC9E619D3B0E100FB38F6 /* CutsomLabel.app */,
+				8FBBCA0219D3B0E200FB38F6 /* CutsomLabelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FBBC9E819D3B0E100FB38F6 /* CutsomLabel */ = {
+			isa = PBXGroup;
+			children = (
+				8FBBC9ED19D3B0E100FB38F6 /* AppDelegate.h */,
+				8FBBC9EE19D3B0E100FB38F6 /* AppDelegate.m */,
+				8FBBC9F319D3B0E200FB38F6 /* ViewController.h */,
+				8FBBC9F419D3B0E200FB38F6 /* ViewController.m */,
+				8F82D88419D40B5A00DBE79A /* SHLUILabel.h */,
+				8F82D88519D40B5A00DBE79A /* SHLUILabel.m */,
+				8F82D88119D3FA1E00DBE79A /* attributedLabel.h */,
+				8F82D88219D3FA1E00DBE79A /* attributedLabel.m */,
+				8FBBC9F619D3B0E200FB38F6 /* Main.storyboard */,
+				8FBBC9F919D3B0E200FB38F6 /* Images.xcassets */,
+				8FBBC9FB19D3B0E200FB38F6 /* LaunchScreen.xib */,
+				8FBBC9F019D3B0E100FB38F6 /* CutsomLabel.xcdatamodeld */,
+				8FBBC9E919D3B0E100FB38F6 /* Supporting Files */,
+			);
+			path = CutsomLabel;
+			sourceTree = "<group>";
+		};
+		8FBBC9E919D3B0E100FB38F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8FBBC9EA19D3B0E100FB38F6 /* Info.plist */,
+				8FBBC9EB19D3B0E100FB38F6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8FBBCA0519D3B0E200FB38F6 /* CutsomLabelTests */ = {
+			isa = PBXGroup;
+			children = (
+				8FBBCA0819D3B0E200FB38F6 /* CutsomLabelTests.m */,
+				8FBBCA0619D3B0E200FB38F6 /* Supporting Files */,
+			);
+			path = CutsomLabelTests;
+			sourceTree = "<group>";
+		};
+		8FBBCA0619D3B0E200FB38F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8FBBCA0719D3B0E200FB38F6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FBBC9E519D3B0E100FB38F6 /* CutsomLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FBBCA0C19D3B0E200FB38F6 /* Build configuration list for PBXNativeTarget "CutsomLabel" */;
+			buildPhases = (
+				8FBBC9E219D3B0E100FB38F6 /* Sources */,
+				8FBBC9E319D3B0E100FB38F6 /* Frameworks */,
+				8FBBC9E419D3B0E100FB38F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CutsomLabel;
+			productName = CutsomLabel;
+			productReference = 8FBBC9E619D3B0E100FB38F6 /* CutsomLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8FBBCA0119D3B0E200FB38F6 /* CutsomLabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FBBCA0F19D3B0E200FB38F6 /* Build configuration list for PBXNativeTarget "CutsomLabelTests" */;
+			buildPhases = (
+				8FBBC9FE19D3B0E200FB38F6 /* Sources */,
+				8FBBC9FF19D3B0E200FB38F6 /* Frameworks */,
+				8FBBCA0019D3B0E200FB38F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FBBCA0419D3B0E200FB38F6 /* PBXTargetDependency */,
+			);
+			name = CutsomLabelTests;
+			productName = CutsomLabelTests;
+			productReference = 8FBBCA0219D3B0E200FB38F6 /* CutsomLabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FBBC9DE19D3B0E100FB38F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = chenguangjiang;
+				TargetAttributes = {
+					8FBBC9E519D3B0E100FB38F6 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					8FBBCA0119D3B0E200FB38F6 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 8FBBC9E519D3B0E100FB38F6;
+					};
+				};
+			};
+			buildConfigurationList = 8FBBC9E119D3B0E100FB38F6 /* Build configuration list for PBXProject "CutsomLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8FBBC9DD19D3B0E100FB38F6;
+			productRefGroup = 8FBBC9E719D3B0E100FB38F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FBBC9E519D3B0E100FB38F6 /* CutsomLabel */,
+				8FBBCA0119D3B0E200FB38F6 /* CutsomLabelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FBBC9E419D3B0E100FB38F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FBBC9F819D3B0E200FB38F6 /* Main.storyboard in Resources */,
+				8FBBC9FD19D3B0E200FB38F6 /* LaunchScreen.xib in Resources */,
+				8FBBC9FA19D3B0E200FB38F6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FBBCA0019D3B0E200FB38F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FBBC9E219D3B0E100FB38F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FBBC9EF19D3B0E100FB38F6 /* AppDelegate.m in Sources */,
+				8FBBC9EC19D3B0E100FB38F6 /* main.m in Sources */,
+				8F82D88319D3FA1E00DBE79A /* attributedLabel.m in Sources */,
+				8FBBC9F519D3B0E200FB38F6 /* ViewController.m in Sources */,
+				8F82D88619D40B5A00DBE79A /* SHLUILabel.m in Sources */,
+				8FBBC9F219D3B0E200FB38F6 /* CutsomLabel.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FBBC9FE19D3B0E200FB38F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FBBCA0919D3B0E200FB38F6 /* CutsomLabelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8FBBCA0419D3B0E200FB38F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FBBC9E519D3B0E100FB38F6 /* CutsomLabel */;
+			targetProxy = 8FBBCA0319D3B0E200FB38F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8FBBC9F619D3B0E200FB38F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FBBC9F719D3B0E200FB38F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8FBBC9FB19D3B0E200FB38F6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FBBC9FC19D3B0E200FB38F6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8FBBCA0A19D3B0E200FB38F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8FBBCA0B19D3B0E200FB38F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FBBCA0D19D3B0E200FB38F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CutsomLabel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8FBBCA0E19D3B0E200FB38F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CutsomLabel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		8FBBCA1019D3B0E200FB38F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CutsomLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CutsomLabel.app/CutsomLabel";
+			};
+			name = Debug;
+		};
+		8FBBCA1119D3B0E200FB38F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CutsomLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CutsomLabel.app/CutsomLabel";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FBBC9E119D3B0E100FB38F6 /* Build configuration list for PBXProject "CutsomLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FBBCA0A19D3B0E200FB38F6 /* Debug */,
+				8FBBCA0B19D3B0E200FB38F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FBBCA0C19D3B0E200FB38F6 /* Build configuration list for PBXNativeTarget "CutsomLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FBBCA0D19D3B0E200FB38F6 /* Debug */,
+				8FBBCA0E19D3B0E200FB38F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FBBCA0F19D3B0E200FB38F6 /* Build configuration list for PBXNativeTarget "CutsomLabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FBBCA1019D3B0E200FB38F6 /* Debug */,
+				8FBBCA1119D3B0E200FB38F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8FBBC9F019D3B0E100FB38F6 /* CutsomLabel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8FBBC9F119D3B0E100FB38F6 /* CutsomLabel.xcdatamodel */,
+			);
+			currentVersion = 8FBBC9F119D3B0E100FB38F6 /* CutsomLabel.xcdatamodel */;
+			path = CutsomLabel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8FBBC9DE19D3B0E100FB38F6 /* Project object */;
+}

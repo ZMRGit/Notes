@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Shareihome APP</title>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="Shareihome众乐智府 智能家居" />
+        <meta name="description" content="智能家居，新生活方式" />
+		<link rel="stylesheet" href="./Public/JqueryM/jquery.mobile-1.4.2.min.css"/>
+        <script src="./Public/JqueryM/jquery-1.11.1.min.js"></script>
+        <script src="./Public/JqueryM/jquery.mobile-1.4.2.min.js"></script>
+	</head>
+
+	<body>
+
+<div data-role="page" id="pageone">
+  <div data-role="header">
+    <a href="#" data-role="button" data-icon="grid">ICON</a>
+    <h1>开关设置</h1>
+    <a href="#" data-role="button" data-icon="search">开/关</a>
+  </div>
+
+  <div data-role="content">
+    <form method="post" action="/index.php/App/Under/sendDevCommand.html">
+      <div data-role="fieldcontain">
+        <label for="fullname">中控ID：</label> <input type="text" name="clientid" />
+        <label for="fullname">设备ID：</label> <input type="text" name="devid" />
+        <label for="cmd">命令：</label> <input type="text" name="cmd" />
+        <label for="wvalue">工作值：</label> <input type="text" name="wvalue" />
+      </div>
+      <input type="submit" data-inline="true" value="开关测试">
+    </form>
+  </div>
+
+  <div data-role="footer">
+    <h1>Shareihome App</h1>
+  </div>
+</div> 
+
+	</body>
+</html>

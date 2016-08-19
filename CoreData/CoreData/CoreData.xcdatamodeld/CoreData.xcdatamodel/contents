@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="13E28" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Test1" representedClassName="Test1" syncable="YES">
+        <attribute name="age" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="info" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Test2" inverseName="details" inverseEntity="Test2" syncable="YES"/>
+    </entity>
+    <entity name="Test2" representedClassName="Test2" syncable="YES">
+        <attribute name="adress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="details" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Test1" inverseName="info" inverseEntity="Test1" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Test1" positionX="-45" positionY="-9" width="128" height="103"/>
+        <element name="Test2" positionX="-18" positionY="18" width="128" height="88"/>
+    </elements>
+</model>

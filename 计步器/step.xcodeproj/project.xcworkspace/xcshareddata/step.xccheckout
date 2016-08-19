@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>370C9129-C30C-4A45-918B-034C629C0155</string>
+	<key>IDESourceControlProjectName</key>
+	<string>step</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8EE56BE14D0999E6B6315EA8102FA961983187CC</key>
+		<string>https://github.com/crazypoo/M7_step.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>step.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8EE56BE14D0999E6B6315EA8102FA961983187CC</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/crazypoo/M7_step.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8EE56BE14D0999E6B6315EA8102FA961983187CC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8EE56BE14D0999E6B6315EA8102FA961983187CC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>%E8%AE%A1%E6%AD%A5%E5%99%A8</string>
+		</dict>
+	</array>
+</dict>
+</plist>

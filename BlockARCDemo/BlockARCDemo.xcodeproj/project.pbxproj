@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F7F439919D807360073E813 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7F439819D807360073E813 /* Foundation.framework */; };
+		8F7F439B19D807360073E813 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7F439A19D807360073E813 /* CoreGraphics.framework */; };
+		8F7F439D19D807360073E813 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7F439C19D807360073E813 /* UIKit.framework */; };
+		8F7F43A319D807360073E813 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F7F43A119D807360073E813 /* InfoPlist.strings */; };
+		8F7F43A519D807360073E813 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7F43A419D807360073E813 /* main.m */; };
+		8F7F43A919D807360073E813 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7F43A819D807360073E813 /* AppDelegate.m */; };
+		8F7F43AC19D807360073E813 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F7F43AA19D807360073E813 /* Main.storyboard */; };
+		8F7F43AF19D807360073E813 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7F43AE19D807360073E813 /* ViewController.m */; };
+		8F7F43B119D807360073E813 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F7F43B019D807360073E813 /* Images.xcassets */; };
+		8F7F43B819D807360073E813 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7F43B719D807360073E813 /* XCTest.framework */; };
+		8F7F43B919D807360073E813 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7F439819D807360073E813 /* Foundation.framework */; };
+		8F7F43BA19D807360073E813 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7F439C19D807360073E813 /* UIKit.framework */; };
+		8F7F43C219D807360073E813 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F7F43C019D807360073E813 /* InfoPlist.strings */; };
+		8F7F43C419D807360073E813 /* BlockARCDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7F43C319D807360073E813 /* BlockARCDemoTests.m */; };
+		8FAC1DF41A6A354B00A24A28 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FAC1DF21A6A354B00A24A28 /* ViewController1.m */; };
+		8FAC1DF51A6A354C00A24A28 /* ViewController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FAC1DF31A6A354B00A24A28 /* ViewController1.xib */; };
+		8FAC1DF81A6A358C00A24A28 /* Demo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FAC1DF71A6A358C00A24A28 /* Demo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F7F43BB19D807360073E813 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F7F438D19D807350073E813 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F7F439419D807360073E813;
+			remoteInfo = BlockARCDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F7F439519D807360073E813 /* BlockARCDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlockARCDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F7F439819D807360073E813 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8F7F439A19D807360073E813 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8F7F439C19D807360073E813 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8F7F43A019D807360073E813 /* BlockARCDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlockARCDemo-Info.plist"; sourceTree = "<group>"; };
+		8F7F43A219D807360073E813 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8F7F43A419D807360073E813 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F7F43A619D807360073E813 /* BlockARCDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlockARCDemo-Prefix.pch"; sourceTree = "<group>"; };
+		8F7F43A719D807360073E813 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8F7F43A819D807360073E813 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8F7F43AB19D807360073E813 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F7F43AD19D807360073E813 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8F7F43AE19D807360073E813 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8F7F43B019D807360073E813 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8F7F43B619D807360073E813 /* BlockARCDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockARCDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F7F43B719D807360073E813 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8F7F43BF19D807360073E813 /* BlockARCDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlockARCDemoTests-Info.plist"; sourceTree = "<group>"; };
+		8F7F43C119D807360073E813 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8F7F43C319D807360073E813 /* BlockARCDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockARCDemoTests.m; sourceTree = "<group>"; };
+		8FAC1DF11A6A354B00A24A28 /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		8FAC1DF21A6A354B00A24A28 /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
+		8FAC1DF31A6A354B00A24A28 /* ViewController1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController1.xib; sourceTree = "<group>"; };
+		8FAC1DF61A6A358C00A24A28 /* Demo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo.h; sourceTree = "<group>"; };
+		8FAC1DF71A6A358C00A24A28 /* Demo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo.m; sourceTree = "<group>"; };
+		8FAC1DF91A6A441800A24A28 /* libobjc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libobjc.dylib; path = usr/lib/libobjc.dylib; sourceTree = SDKROOT; };
+		8FAC1DFB1A6A450B00A24A28 /* libobjc.A.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libobjc.A.dylib; path = usr/lib/libobjc.A.dylib; sourceTree = SDKROOT; };
+		8FAC1DFD1A6A46BB00A24A28 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F7F439219D807360073E813 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F7F439B19D807360073E813 /* CoreGraphics.framework in Frameworks */,
+				8F7F439D19D807360073E813 /* UIKit.framework in Frameworks */,
+				8F7F439919D807360073E813 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F7F43B319D807360073E813 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F7F43B819D807360073E813 /* XCTest.framework in Frameworks */,
+				8F7F43BA19D807360073E813 /* UIKit.framework in Frameworks */,
+				8F7F43B919D807360073E813 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F7F438C19D807350073E813 = {
+			isa = PBXGroup;
+			children = (
+				8F7F439E19D807360073E813 /* BlockARCDemo */,
+				8F7F43BD19D807360073E813 /* BlockARCDemoTests */,
+				8F7F439719D807360073E813 /* Frameworks */,
+				8F7F439619D807360073E813 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F7F439619D807360073E813 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F7F439519D807360073E813 /* BlockARCDemo.app */,
+				8F7F43B619D807360073E813 /* BlockARCDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F7F439719D807360073E813 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FAC1DFD1A6A46BB00A24A28 /* AssetsLibrary.framework */,
+				8FAC1DFB1A6A450B00A24A28 /* libobjc.A.dylib */,
+				8FAC1DF91A6A441800A24A28 /* libobjc.dylib */,
+				8F7F439819D807360073E813 /* Foundation.framework */,
+				8F7F439A19D807360073E813 /* CoreGraphics.framework */,
+				8F7F439C19D807360073E813 /* UIKit.framework */,
+				8F7F43B719D807360073E813 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F7F439E19D807360073E813 /* BlockARCDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8F7F43A719D807360073E813 /* AppDelegate.h */,
+				8F7F43A819D807360073E813 /* AppDelegate.m */,
+				8F7F43AA19D807360073E813 /* Main.storyboard */,
+				8F7F43AD19D807360073E813 /* ViewController.h */,
+				8F7F43AE19D807360073E813 /* ViewController.m */,
+				8FAC1DF11A6A354B00A24A28 /* ViewController1.h */,
+				8FAC1DF21A6A354B00A24A28 /* ViewController1.m */,
+				8FAC1DF31A6A354B00A24A28 /* ViewController1.xib */,
+				8FAC1DF61A6A358C00A24A28 /* Demo.h */,
+				8FAC1DF71A6A358C00A24A28 /* Demo.m */,
+				8F7F43B019D807360073E813 /* Images.xcassets */,
+				8F7F439F19D807360073E813 /* Supporting Files */,
+			);
+			path = BlockARCDemo;
+			sourceTree = "<group>";
+		};
+		8F7F439F19D807360073E813 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F7F43A019D807360073E813 /* BlockARCDemo-Info.plist */,
+				8F7F43A119D807360073E813 /* InfoPlist.strings */,
+				8F7F43A419D807360073E813 /* main.m */,
+				8F7F43A619D807360073E813 /* BlockARCDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F7F43BD19D807360073E813 /* BlockARCDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F7F43C319D807360073E813 /* BlockARCDemoTests.m */,
+				8F7F43BE19D807360073E813 /* Supporting Files */,
+			);
+			path = BlockARCDemoTests;
+			sourceTree = "<group>";
+		};
+		8F7F43BE19D807360073E813 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F7F43BF19D807360073E813 /* BlockARCDemoTests-Info.plist */,
+				8F7F43C019D807360073E813 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F7F439419D807360073E813 /* BlockARCDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F7F43C719D807360073E813 /* Build configuration list for PBXNativeTarget "BlockARCDemo" */;
+			buildPhases = (
+				8F7F439119D807360073E813 /* Sources */,
+				8F7F439219D807360073E813 /* Frameworks */,
+				8F7F439319D807360073E813 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlockARCDemo;
+			productName = BlockARCDemo;
+			productReference = 8F7F439519D807360073E813 /* BlockARCDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F7F43B519D807360073E813 /* BlockARCDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F7F43CA19D807360073E813 /* Build configuration list for PBXNativeTarget "BlockARCDemoTests" */;
+			buildPhases = (
+				8F7F43B219D807360073E813 /* Sources */,
+				8F7F43B319D807360073E813 /* Frameworks */,
+				8F7F43B419D807360073E813 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F7F43BC19D807360073E813 /* PBXTargetDependency */,
+			);
+			name = BlockARCDemoTests;
+			productName = BlockARCDemoTests;
+			productReference = 8F7F43B619D807360073E813 /* BlockARCDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F7F438D19D807350073E813 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = chenguangjiang;
+				TargetAttributes = {
+					8F7F43B519D807360073E813 = {
+						TestTargetID = 8F7F439419D807360073E813;
+					};
+				};
+			};
+			buildConfigurationList = 8F7F439019D807350073E813 /* Build configuration list for PBXProject "BlockARCDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F7F438C19D807350073E813;
+			productRefGroup = 8F7F439619D807360073E813 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F7F439419D807360073E813 /* BlockARCDemo */,
+				8F7F43B519D807360073E813 /* BlockARCDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F7F439319D807360073E813 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FAC1DF51A6A354C00A24A28 /* ViewController1.xib in Resources */,
+				8F7F43B119D807360073E813 /* Images.xcassets in Resources */,
+				8F7F43A319D807360073E813 /* InfoPlist.strings in Resources */,
+				8F7F43AC19D807360073E813 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F7F43B419D807360073E813 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F7F43C219D807360073E813 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F7F439119D807360073E813 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FAC1DF81A6A358C00A24A28 /* Demo.m in Sources */,
+				8FAC1DF41A6A354B00A24A28 /* ViewController1.m in Sources */,
+				8F7F43AF19D807360073E813 /* ViewController.m in Sources */,
+				8F7F43A919D807360073E813 /* AppDelegate.m in Sources */,
+				8F7F43A519D807360073E813 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F7F43B219D807360073E813 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F7F43C419D807360073E813 /* BlockARCDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F7F43BC19D807360073E813 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F7F439419D807360073E813 /* BlockARCDemo */;
+			targetProxy = 8F7F43BB19D807360073E813 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8F7F43A119D807360073E813 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F7F43A219D807360073E813 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8F7F43AA19D807360073E813 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F7F43AB19D807360073E813 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F7F43C019D807360073E813 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F7F43C119D807360073E813 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F7F43C519D807360073E813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8F7F43C619D807360073E813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F7F43C819D807360073E813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlockARCDemo/BlockARCDemo-Prefix.pch";
+				INFOPLIST_FILE = "BlockARCDemo/BlockARCDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8F7F43C919D807360073E813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlockARCDemo/BlockARCDemo-Prefix.pch";
+				INFOPLIST_FILE = "BlockARCDemo/BlockARCDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8F7F43CB19D807360073E813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BlockARCDemo.app/BlockARCDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlockARCDemo/BlockARCDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BlockARCDemoTests/BlockARCDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8F7F43CC19D807360073E813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BlockARCDemo.app/BlockARCDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlockARCDemo/BlockARCDemo-Prefix.pch";
+				INFOPLIST_FILE = "BlockARCDemoTests/BlockARCDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F7F439019D807350073E813 /* Build configuration list for PBXProject "BlockARCDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F7F43C519D807360073E813 /* Debug */,
+				8F7F43C619D807360073E813 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F7F43C719D807360073E813 /* Build configuration list for PBXNativeTarget "BlockARCDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F7F43C819D807360073E813 /* Debug */,
+				8F7F43C919D807360073E813 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F7F43CA19D807360073E813 /* Build configuration list for PBXNativeTarget "BlockARCDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F7F43CB19D807360073E813 /* Debug */,
+				8F7F43CC19D807360073E813 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F7F438D19D807350073E813 /* Project object */;
+}
